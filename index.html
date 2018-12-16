@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barta24</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="asset/bootstrap.min.css">
+  <link rel="stylesheet" href="asset/style.css">
+  <script src="asset/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container navbar navbar-inverse navbar-fixed-top">
+	<div class="header">
+ <div class="flex-container">
+      <div class="box_top">LOGO</div>
+    </div>
+  </div>
+</div>
+
+
+<!--main menu-->    
+<ul>
+  <li><a  href="#home">Home</a></li>
+ 
+</ul>
+<!--Main Body-->
+
+<div class="main_body">
+	<div class="container">
+<!--Sidebar-->
+      <div class="col-md-4">
+        <div id="boxright">
+        <div class="flex-container">
+            <div class="box_top">1st</div>
+        </div>
+         <div class="tnd_container">
+            <div class="box_center">2nd</div>
+        </div>
+        <div id="sticky" class="Snd_container">
+            <div class="box_bottom">3rd</div>
+        </div>              
+      </div>
+    </div>
+    <!--siderbar end-->
+
+
+			<div class="col-md-8">
+				<div class="content">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="flex-container">
+                  <div class="box_top">Image</div>
+               </div>
+						</div>
+						<div class="col-md-4">
+							<h2>Title</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+
+        <!--Content Section START-->
+               <div id="new_content">
+                	<div class="row">
+                		<div class="col-md-4">
+                			<div class="flex-container">
+                          <div class="box_top">1
+                                <button type="button" class="btn btn-default btn-block">News Title</button>
+                          </div>       
+                        </div>
+                		</div>
+                		<div class="col-md-4">
+                			<div class="flex-container">
+                            <div class="box_top">1
+                                <button type="button" class="btn btn btn-block">News Title</button>
+                            </div>
+                        </div>
+                			
+                		 </div>
+                		<div class="col-md-4">
+                			<div class="flex-container">
+                            <div class="box_top">2 
+                              <button type="button" class="btn btn btn-block">News Title</button>
+                            </div>
+                      </div>
+                		</div>
+                	</div>
+                </div>
+
+              <div id="new_content">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="flex-container">
+                              <div class="box_top">1
+                                <button type="button" class="btn btn btn-block">News Title</button>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="flex-container">
+                            <div class="box_top">1
+                                <button type="button" class="btn btn btn-block">News Title</button>
+                            </div>
+                        </div>                      
+                     </div>
+                    <div class="col-md-4">
+                      <div class="flex-container">
+                              <div class="box_top">2 
+                               <button type="button" class="btn btn btn-block">News Title</button>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--Content Section END-->
+              <!--BANNER SECTION-->
+
+                  <div id="banner">
+                    <div class="row">
+                      <div class="col-md-12">
+                         <div class="flex-container">
+                              <div class="box_top">Banner    
+                              </div>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+      </div> 
+	</div>
+</div>
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("sticky");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html> 
